@@ -1,0 +1,63 @@
+/* 
+https://source.unsplash.com/lfyKGQWEbew
+https://source.unsplash.com/PRne5FNBRmk
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: #CCC;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 17.5px;
+}
+
+.hero-one {
+  
+  top: 0;
+  position: absolute;
+  width: 60%;
+  background-color: black;
+  height: 100vh;
+  clip-path: polygon(0 0, 60vw 0, 40vw 100vh, 0 100vh);
+  z-index: 1;
+  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://i.ibb.co/61WkkNt/Whats-App-Image-2021-12-14-at-11-18-33-PM.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-two {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  background-color: green;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url(https://64.media.tumblr.com/3d4d824f109c46f280047f2a94135c27/tumblr_nlptn4t5Ug1relaado1_400.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-title {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-primary {
+  font-size: 2em;
+  display: block;
+  font-weight: 700;
+  width:20%;
+}
